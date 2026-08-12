@@ -68,3 +68,15 @@ model.train(
     batch=16,
     name="crop_weed_yolov8"
 )
+```
+
+## 📊 Results
+The model was evaluated on the validation set. Key metrics:
+
+- mAP50
+- mAP50-95
+- Precision
+- Recall
+- 
+Detailed graphs (results.png, confusion matrix, PR curve) are available in the results/ folder.
+Sample predictions are also included in the results/sample_predictions/ folder.
