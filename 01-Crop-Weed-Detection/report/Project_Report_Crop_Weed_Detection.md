@@ -119,34 +119,37 @@ The best model weights were saved as best.pt.
 ---
 
 ## 6. Results
+
 The trained YOLOv8 model was evaluated on the validation set. The model successfully learned to distinguish between crops and weeds.
 Key Observations:
 
-The model was able to detect both crop and weed instances with good confidence.
-Bounding boxes were accurately placed around the objects.
-Performance metrics such as mAP50, Precision, and Recall were recorded.
-Confusion matrix and training curves were generated for analysis.
+ - The model was able to detect both crop and weed instances with good confidence.
+ - Bounding boxes were accurately placed around the objects.
+ - Performance metrics such as mAP50, Precision, and Recall were recorded.
+ - Confusion matrix and training curves were generated for analysis.
 
 All result graphs and sample prediction images are stored in the results/ folder of the project repository.
 
 ---
 
 ## 7. Learnings
+
 During this project, the following key learnings were gained:
 
-Understanding of object detection pipelines and YOLO architecture
-Importance of proper dataset organization and train-validation split
-Practical experience in training deep learning models on GPU using Google Colab
-How to evaluate object detection models using mAP, Precision, and Recall
-Handling real-world agricultural image data
-Best practices for organizing a professional GitHub repository for internship projects
-Writing a structured technical project report
+- Understanding of object detection pipelines and YOLO architecture
+- Importance of proper dataset organization and train-validation split
+- Practical experience in training deep learning models on GPU using Google Colab
+- How to evaluate object detection models using mAP, Precision, and Recall
+- Handling real-world agricultural image data
+- Best practices for organizing a professional GitHub repository for internship projects
+- Writing a structured technical project report
 
 This project significantly improved practical knowledge of Computer Vision and its application in agriculture.
 
 ---
 
 ## 8. Conclusion
+
 The Crop and Weed Detection project successfully demonstrates the use of YOLOv8 for precision agriculture. The developed model can detect crops and weeds from field images, which can be further integrated into automated spraying systems.
 This project fulfills the requirements of the Machine Learning Internship at UCT and provides a strong foundation for future work in Agri-Tech and Computer Vision applications.
 
@@ -154,11 +157,11 @@ This project fulfills the requirements of the Machine Learning Internship at UCT
 
 ## 9. Future Scope
 
-Train larger models (YOLOv8s / YOLOv8m) for better accuracy
-Collect more diverse real-field images
-Deploy the model on edge devices (Raspberry Pi / Jetson)
-Integrate with a spraying robot or drone system
-Extend the system to multiple crop types
+- Train larger models (YOLOv8s / YOLOv8m) for better accuracy
+- Collect more diverse real-field images
+- Deploy the model on edge devices (Raspberry Pi / Jetson)
+- Integrate with a spraying robot or drone system
+- Extend the system to multiple crop types
 
 ---
 
