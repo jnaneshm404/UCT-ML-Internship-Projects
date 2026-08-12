@@ -165,7 +165,8 @@ This project fulfills the requirements of the Machine Learning Internship at UCT
 
 ---
 
-Submitted as part of Machine Learning Internship
-Company: UCT (Upskill)
-Intern: Jnanesh M
+Submitted as part of Machine Learning Internship  
+Company: UCT (Upskill)  
+Intern: Jnanesh M  
+
 ---
