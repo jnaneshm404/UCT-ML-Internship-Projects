@@ -88,20 +88,34 @@ Sample predictions are also included in the results/sample_predictions/ folder.
 ---
 
 📁 Project Structure
-text01-Crop-Weed-Detection/
+01-Crop-Weed-Detection/
+
 ├── README.md
+
 ├── data.yaml
+
 ├── notebooks/
+
 │   └── Crop_Weed_Detection_YOLOv8.ipynb
+
 ├── models/
+
 │   └── best.pt
+
 ├── results/
+
 │   ├── confusion_matrix.png
+
 │   ├── results.png
+
 │   └── sample_predictions/
+
 ├── report/
+
 │   └── Project_Report_Crop_Weed_Detection.md
+
 └── src/
+
 
 ---
 
