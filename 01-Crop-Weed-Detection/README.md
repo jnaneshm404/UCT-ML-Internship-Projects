@@ -77,6 +77,54 @@ The model was evaluated on the validation set. Key metrics:
 - mAP50-95
 - Precision
 - Recall
-- 
+
 Detailed graphs (results.png, confusion matrix, PR curve) are available in the results/ folder.
 Sample predictions are also included in the results/sample_predictions/ folder.
+
+📁 Project Structure
+text01-Crop-Weed-Detection/
+├── README.md
+├── data.yaml
+├── notebooks/
+│   └── Crop_Weed_Detection_YOLOv8.ipynb
+├── models/
+│   └── best.pt
+├── results/
+│   ├── confusion_matrix.png
+│   ├── results.png
+│   └── sample_predictions/
+├── report/
+│   └── Project_Report_Crop_Weed_Detection.md
+└── src/
+
+---
+
+##💻 How to Run
+
+Clone this repository
+Install requirements: 
+-pip install ultralytics
+
+Update the path in data.yaml according to your system
+
+Run inference:
+Pythonfrom ultralytics import YOLO
+model = YOLO("models/best.pt")
+model.predict("path/to/image.jpg", save=True)
+
+
+##📝 Learnings
+
+- Data preparation and YOLO format annotations
+- Training object detection models using Ultralytics
+- Evaluating model performance using mAP, Precision, and Recall
+- Importance of train-validation split and data organization
+- Working with Google Colab GPU for deep learning
+
+
+##👨‍💻 Author
+Jnanesh M
+Machine Learning Intern – UCT / Upskill
+
+##📄 License
+This project was developed as part of the Machine Learning Internship at UCT.
