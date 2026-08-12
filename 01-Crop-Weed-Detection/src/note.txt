@@ -1,0 +1,2 @@
+This folder is reserved for clean Python scripts (optional).
+Main training was done in the notebook.
