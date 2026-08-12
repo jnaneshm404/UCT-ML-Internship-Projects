@@ -56,6 +56,8 @@ Weeds compete with crops for nutrients, water, and sunlight, leading to reduced 
 - **Optimizer:** Default (AdamW)
 - **Pretrained Weights:** COCO
 
+---
+
 ### Training Command
 ```python
 from ultralytics import YOLO
@@ -70,6 +72,8 @@ model.train(
 )
 ```
 
+---
+
 ## 📊 Results
 The model was evaluated on the validation set. Key metrics:
 
@@ -80,6 +84,8 @@ The model was evaluated on the validation set. Key metrics:
 
 Detailed graphs (results.png, confusion matrix, PR curve) are available in the results/ folder.
 Sample predictions are also included in the results/sample_predictions/ folder.
+
+---
 
 📁 Project Structure
 text01-Crop-Weed-Detection/
@@ -112,6 +118,7 @@ Pythonfrom ultralytics import YOLO
 model = YOLO("models/best.pt")
 model.predict("path/to/image.jpg", save=True)
 
+---
 
 ##📝 Learnings
 
@@ -121,10 +128,13 @@ model.predict("path/to/image.jpg", save=True)
 - Importance of train-validation split and data organization
 - Working with Google Colab GPU for deep learning
 
+---
 
 ##👨‍💻 Author
 Jnanesh M
 Machine Learning Intern – UCT / Upskill
+
+---
 
 ##📄 License
 This project was developed as part of the Machine Learning Internship at UCT.
