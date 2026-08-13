@@ -87,50 +87,39 @@ Sample predictions are also included in the results/sample_predictions/ folder.
 
 ---
 
-📁 Project Structure
-01-Crop-Weed-Detection/
+## 📁 Project Structure
 
-├── README.md
-
-├── data.yaml
-
-├── notebooks/
-
-│   └── Crop_Weed_Detection_YOLOv8.ipynb
-
-├── models/
-
-│   └── best.pt
-
-├── results/
-
-│   ├── confusion_matrix.png
-
-│   ├── results.png
-
-│   └── sample_predictions/
-
-├── report/
-
-│   └── Project_Report_Crop_Weed_Detection.md
-
-└── src/
-
+01-Crop-Weed-Detection/  
+├── README.md  
+├── data.yaml  
+├── notebooks/  
+│   └── Crop_Weed_Detection_YOLOv8.ipynb  
+├── models/  
+│   └── best.pt  
+├── results/  
+│   ├── confusion_matrix.png  
+│   ├── results.png  
+│   └── sample_predictions/  
+├── report/  
+│   └── Project_Report_Crop_Weed_Detection.md  
+└── src/  
 
 ---
 
-##💻 How to Run
+## 💻 How to Run
 
 Clone this repository
 Install requirements: 
+```bash
 -pip install ultralytics
-
+```
 Update the path in data.yaml according to your system
-
 Run inference:
+```python
 Pythonfrom ultralytics import YOLO
 model = YOLO("models/best.pt")
 model.predict("path/to/image.jpg", save=True)
+```
 
 ---
 
@@ -144,11 +133,13 @@ model.predict("path/to/image.jpg", save=True)
 
 ---
 
-##👨‍💻 Author
+##👨‍💻 Author  
+
 Jnanesh M
 Machine Learning Intern – UCT / Upskill
 
 ---
 
-##📄 License
+##📄 License  
+
 This project was developed as part of the Machine Learning Internship at UCT.
