@@ -124,5 +124,3 @@ Machine Learning Intern – UCT / Upskill
 
 ## License  
 This project was developed as part of the Machine Learning Internship at UCT.
-
----
